@@ -1,0 +1,32 @@
+GWEN™ — SAVED DATA AND PUBLIC UPDATES
+
+This download contains clean application files, runtime/dependencies, source
+and notices. No creator accounts, pairings, browser profiles, private settings,
+recordings, reports or signing keys are supplied.
+
+Default installation: LocalAppData/Programs/GWEN for the current Windows user.
+UserData contains your settings, pairings and supported provider profiles.
+Windows DPAPI protects supported saved credentials for your Windows account.
+Copying those files does not transfer access to another Windows user or PC.
+Recordings, Reports and Backups are alongside the launcher.
+
+Updates > Check online now reads the official Tenten1824/GWEN GitHub feed.
+Automatic daily checking is optional. Public packages use GWEN-PUBLIC;
+Developer-channel packages are rejected. Feeds and update manifests have
+pinned-key RSA signatures; payload sizes and SHA-256 hashes are verified.
+You choose Download, confirm preparation, then Restart to apply. There is no
+unattended installation. The feed/downloads must be published to be reachable.
+The Windows installer executable is NOT Authenticode-signed; this is separate
+from the update system's package signature verification.
+
+Updates keep saved data in UserData and back it up before switching releases.
+Roll back needs a previous retained public release and keeps current progress.
+Uninstall removes installer-owned program files/shortcuts, while retaining
+UserData, recordings, reports, backups, state and later updater-owned releases.
+Back up retained data before deleting it yourself.
+Setup refuses Developer/unmarked folders and active/newer Public installs.
+
+Provider sign-in/traffic goes to that provider. No creator account is bundled.
+Support reports use allowlisted diagnostics. Review before sharing; do not
+send passwords, account cookies, sign-in tokens or private pairing material.
+Software/component licenses and service terms continue to apply.
