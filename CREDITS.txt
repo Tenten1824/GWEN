@@ -3,7 +3,7 @@ GWEN™ — Credits & acknowledgements
 GWEN™ — Gaming World Entertainment Network. An independent gaming and entertainment project inspired by Gwen. Upstream protocol engines and libraries are credited below.
 
 GWEN™ development
-Developed by Tenten1824 with development assistance from OpenAI Codex. Product direction, visual identity, custom interface and application integration: Tenten1824.
+Developed by 1010b3rika with development assistance from OpenAI Codex. Product direction, visual identity, custom interface and application integration: 1010b3rika.
 
 Remote Play foundations
 chiaki-py / Rothen and contributors; chiaki-ng contributors. Protocol, pairing, decryption and media interoperability. AGPL-3.0-only; preserve upstream notices.

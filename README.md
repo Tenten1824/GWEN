@@ -1,15 +1,15 @@
 # GWEN™
 
-**Gaming World Entertainment Network — by Tenten1824.**
+**Gaming World Entertainment Network — by 1010b3rika.**
 
 A Windows interface for PlayStation and Xbox Remote Play, Cloud Play,
 controller support and Multi-view.
 
 ## Download
 
-[Official downloads and release notes](https://github.com/Tenten1824/GWEN/releases/latest)
+[Official downloads and release notes](https://github.com/1010b3rika/GWEN/releases/latest)
 
-- New installation: **GWEN-Setup-1.19.23-Windows-x64.exe**.
+- New installation: **GWEN-Setup-1.19.28-Windows-x64.exe**.
 - Read **HOW TO USE.txt** for setup, pairing, controller buttons and keyboard shortcuts.
 - Existing Public installation: use **Settings → App updates → Check online now**.
   Download, confirm preparation, then restart when playback has stopped.
@@ -44,12 +44,12 @@ Native shortcuts do not override sign-in dialogs or embedded provider controls.
 
 ## Credits, licenses and source
 
-Developed by **Tenten1824**, with development assistance from **OpenAI Codex**.
+Developed by **1010b3rika**, with development assistance from **OpenAI Codex**.
 See [CREDITS.txt](CREDITS.txt) for upstream authors and acknowledgements.
 
 The custom application/launcher retains its existing **AGPL-3.0-only** license.
 Third-party components retain their own licenses, including PyQt GPL terms.
-The release includes **GWEN-Public-1.19.23-Full-Source.zip**, build materials,
+The release includes **GWEN-Public-1.19.28-Full-Source.zip**, build materials,
 dependency notices and component source material. Do not treat GitHub's
 automatically generated repository ZIP as a replacement for that source archive.
 Product imagery and trademarks retain their owners' rights and are separate
@@ -57,10 +57,10 @@ from the software license. No Sony/Microsoft affiliation or endorsement is claim
 
 ## Verification and support
 
-The desktop baseline passed 40 regression tests and four Public-channel checks.
-The installer was checked in an isolated folder for install/startup/reinstall,
-saved-data retention and uninstall. New live PS5, Cloud, Xbox and controller
-hardware acceptance was not performed for this Public promotion.
+The approved Windows Public feature scope and native streaming engines are retained.
+This release updates the developer credit and adds signed minimum-version policy
+support. Policy, channel, clean-data and isolated-installer verification results
+are included with the release. Live PS5/Cloud/controller acceptance is separate.
 
 The Windows installer is not Authenticode-signed. Official update feeds/packages
 are signed separately and verified by GWEN™. Compare release SHA256SUMS.txt
@@ -69,3 +69,22 @@ when manually checking downloads.
 For a problem: **Settings → Diagnostics → Save support report** while it happens,
 before disconnecting if possible. Review the ZIP before sharing it. Never post
 passwords, sign-in tokens or private pairing data.
+
+## Required updates
+
+1.19.28 is a required credit/updater release. Existing Public users should accept
+the update once in App updates, or run the new installer over their Public copy.
+Older clients cannot enforce new policy retroactively. From 1.19.28 onward a verified
+mandatory minimum version blocks new playback until it is installed and GWEN™ is
+restarted. Current games/recordings are not terminated. Download/preparation still
+requires your action; signed known requirements are remembered offline. Offline
+use remains available when no verified requirement is known. Optional checks and
+required startup checks are explained in PRIVACY-AND-UPDATES.txt.
+
+## iPhone and iPad
+
+The release includes GWEN-Mobile-0.2.12-Complete-Xcode.zip. Build and sign it on
+your own Mac with Xcode. It preserves the mobile bundle identity and native 0.2.11
+engine, updates credits to 1010b3rika, and checks this repository for mobile updates.
+This is source for Xcode, not an App Store/TestFlight IPA; Apple compilation and
+device acceptance of this credit-only package have not been performed on this PC.

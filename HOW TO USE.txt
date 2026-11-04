@@ -1,9 +1,9 @@
 GWEN™ — HOW TO USE
-Version 1.19.23 Public | Windows 10/11 x64
-By Tenten1824 | Gaming World Entertainment Network
+Version 1.19.28 Public | Windows 10/11 x64
+By 1010b3rika | Gaming World Entertainment Network
 
 QUICK START
-1. Run GWEN-Setup-1.19.23-Windows-x64.exe.
+1. Run GWEN-Setup-1.19.28-Windows-x64.exe.
 2. Open GWEN™ from your desktop or Start menu. Python is included.
 3. Choose PlayStation or Xbox, then Remote Play or Cloud Play.
 4. Connect your own controller to Windows by USB or Bluetooth.
@@ -151,3 +151,14 @@ Windows-bound account credentials cannot simply be moved to another user/PC.
 This Windows download is separate from iPhone/iPad Xcode projects.
 The Windows executable is not Authenticode-signed. Device/provider/network
 compatibility varies; this guide does not certify every hardware combination.
+
+REQUIRED UPDATE POLICY (1.19.28 and later)
+GWEN Public checks the official signed release notice at startup when online.
+A verified mandatory minimum version prevents new playback until the required
+update is installed and GWEN restarted. An ongoing game or recording is not
+terminated. You approve download/preparation; GWEN does not run an installer
+without your action. A previously verified requirement is remembered offline.
+An offline client with no verified requirement continues to work. Required
+checks are separate from optional daily notifications. Older Public clients
+(1.19.23 and earlier) do not implement enforcement and must accept this update
+once. The installer preserves existing saved data and update-channel separation.

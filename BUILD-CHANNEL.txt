@@ -1,0 +1,4 @@
+GWEN 1.19.28 Public
+Public product: GWEN-PUBLIC
+Official repository: https://github.com/1010b3rika/GWEN
+Clean installation: no creator accounts or personal data.

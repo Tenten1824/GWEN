@@ -10,7 +10,7 @@ Windows DPAPI protects supported saved credentials for your Windows account.
 Copying those files does not transfer access to another Windows user or PC.
 Recordings, Reports and Backups are alongside the launcher.
 
-Updates > Check online now reads the official Tenten1824/GWEN GitHub feed.
+Updates > Check online now reads the official 1010b3rika/GWEN GitHub feed.
 Automatic daily checking is optional. Public packages use GWEN-PUBLIC;
 Developer-channel packages are rejected. Feeds and update manifests have
 pinned-key RSA signatures; payload sizes and SHA-256 hashes are verified.
@@ -30,3 +30,14 @@ Provider sign-in/traffic goes to that provider. No creator account is bundled.
 Support reports use allowlisted diagnostics. Review before sharing; do not
 send passwords, account cookies, sign-in tokens or private pairing material.
 Software/component licenses and service terms continue to apply.
+
+REQUIRED UPDATE POLICY (1.19.28 and later)
+GWEN Public checks the official signed release notice at startup when online.
+A verified mandatory minimum version prevents new playback until the required
+update is installed and GWEN restarted. An ongoing game or recording is not
+terminated. You approve download/preparation; GWEN does not run an installer
+without your action. A previously verified requirement is remembered offline.
+An offline client with no verified requirement continues to work. Required
+checks are separate from optional daily notifications. Older Public clients
+(1.19.23 and earlier) do not implement enforcement and must accept this update
+once. The installer preserves existing saved data and update-channel separation.

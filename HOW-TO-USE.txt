@@ -1,0 +1,164 @@
+GWEN™ — HOW TO USE
+Version 1.19.28 Public | Windows 10/11 x64
+By 1010b3rika | Gaming World Entertainment Network
+
+QUICK START
+1. Run GWEN-Setup-1.19.28-Windows-x64.exe.
+2. Open GWEN™ from your desktop or Start menu. Python is included.
+3. Choose PlayStation or Xbox, then Remote Play or Cloud Play.
+4. Connect your own controller to Windows by USB or Bluetooth.
+5. In Settings > Controllers, enable controller input and menu navigation.
+   Click GWEN™ to give it focus before using controller menus.
+
+PLAYSTATION REMOTE PLAY — YOUR OWN PS5
+Start with the PC and PS5 on the same home network.
+On PS5: Settings > System > Remote Play > Enable Remote Play.
+In GWEN™: Consoles > add/edit your console. Enter the PS5's real IPv4 address
+from PS5 Settings > Network > Connection Status. Do not use an example IP.
+Choose Pair this console. On PS5, open Link Device/Pair Device for a fresh
+8-digit PIN. Enter that PIN and the activated PS5 user's Account-ID in GWEN™.
+Choose Base64, Decimal or Hexadecimal to match the ID you enter.
+Account-ID is NOT your PSN name, email or password. This build does not
+automatically retrieve it; use your own trusted account-ID method.
+Then choose PlayStation > Remote Play > Connect/Play.
+Pair each PS5 separately. Pairings stay on this Windows user account.
+Standard PS5 Remote Play does not need a jailbreak. PS4 is unverified here.
+Wake + Play is for a correctly configured PS5 in Rest Mode; it does not
+promise to turn on a PS5 that is fully shut down.
+An outside-home connection needs a working network route to your PS5.
+Switching only the PC to an iPhone hotspot does not create that route.
+
+PLAYSTATION CLOUD PLAY
+Choose PlayStation > Cloud Play > Connect PlayStation.
+Sign in on Sony's page yourself, then choose Use this account.
+Load games, select an eligible title and press Play.
+Your account, subscription/game entitlement and supported service region
+determine access. GWEN™ does not unlock paid content or bypass restrictions.
+Library returns to browsing while a game may continue running.
+Return to game restores that session. Stop cloud game ends it.
+
+XBOX
+Choose Xbox > Remote Play for your own supported Xbox console, or
+Xbox > Cloud Play for Microsoft's cloud player. Sign in on Microsoft's page.
+Use your own eligible account/service access. Provider controls and quality
+settings apply inside the embedded page. Xbox hardware gameplay has not
+been newly verified for this release.
+Embedded provider pages need Microsoft Edge WebView2 Runtime.
+Official runtime: https://developer.microsoft.com/microsoft-edge/webview2/
+
+CONTROLLER BUTTONS — NATIVE GWEN™ MENUS
+Action                         PlayStation             Xbox
+Move between controls          D-pad / left stick      D-pad / left stick
+Select / press focused item    Cross (X)               A
+Back / close native dialog     Circle (O)              B
+Previous / next main tab       L1 / R1                 LB / RB
+Open native gameplay menu      Hold L3 + R3, 0.7 sec   Hold LS + RS, 0.7 sec
+Start / stop recording         L2 + R3                 LT + RS
+
+L3/LS means CLICK the left stick; R3/RS means CLICK the right stick.
+For recording: release BOTH trigger and stick button before repeating.
+The native gameplay menu applies to native PlayStation sessions; it is not
+a universal shortcut inside Xbox web pages, external games or sign-in pages.
+The game keeps running while this menu is open. Choose Return to game,
+Home, Settings, Controller settings, or Cloud library when available.
+Release the menu buttons before resuming game input.
+Selecting a GWEN™ text box can open the controller keyboard. Browser
+sign-in and Windows security/file dialogs retain their own input controls.
+In gameplay, normal controller buttons go to the game. DualSense touchpad
+support and feedback depend on the selected device and connection.
+Battery percentage appears only when the device/driver supplies it.
+Software power-off is device-dependent; Elite 2 Bluetooth power-off is
+not supported. Turn an off controller back on with its physical PS/Xbox button.
+The top-right app power button is separate from controller power settings.
+
+KEYBOARD AND MOUSE
+Ctrl + R                 Start / stop supported native source recording.
+F11                      Toggle supported native picture fullscreen.
+Esc                      Leave supported native fullscreen / close dialogs.
+Double-click picture     Fullscreen that picture; repeat to return.
+Tab / Shift + Tab        Move keyboard focus through native controls.
+Enter / Space            Activate a focused native button (control-dependent).
+Arrow keys               Change a focused list, menu, slider or choice.
+Alt + F4 / window X      Close GWEN™ normally; allow cleanup to finish.
+
+These are app/menu controls, NOT a keyboard-to-PS5 game mapping.
+Browser players can use different shortcuts and fullscreen rules.
+Keep GWEN™ focused for its shortcuts. Click a text box before typing.
+
+MULTI-VIEW
+Add/pair consoles first, then open Multi-view. Up to six tiles can be used.
+Connect each console with its tile's Connect button.
+Use controls selects that tile for native controller/audio focus.
+Double-click the chosen picture to enlarge that picture, not the whole grid.
+Double-click again or Esc returns. Detach opens that tile separately.
+Drag tiles using their header/drag handle to rearrange the grid.
+More streams increase network and decoder load. Test lower background quality
+if simultaneous playback is not smooth.
+
+VIDEO QUALITY AND SOUND
+Settings > Video: start with 720p/60 for a lighter Remote Play test.
+Try High detail 1080p/60/20 Mbps if the network and PC can sustain it.
+Remote stream changes apply on the NEXT connection: disconnect, wait for
+cleanup, then reconnect. They do not instantly renegotiate a running stream.
+Cloud preset requests: Automatic, 720p/60/8 Mbps, 1080p/60/12 Mbps Balanced,
+1080p/60/20 Mbps High detail, or 1080p/60/40 Mbps Ultra detail.
+Stop the cloud game, choose the preset, then reconnect. Sony controls the
+actual delivered stream. Higher requested bitrate is not always smoother.
+If stuttering starts, compare the same scene at Automatic or 720p/8 Mbps.
+Settings > Picture adjusts brightness, contrast, saturation, gamma/sharpness
+on supported GPU processing. Use neutral/Reset to compare the original.
+Sharpness cannot recover missing source detail. Fill crops to fill the area;
+Fit preserves the full image. Fullscreen restores prior framing on exit.
+Settings > Sound selects output. Check the headset, Windows output, volume
+and Mute if sound is missing. See VIDEO-PRESETS.txt for more details.
+
+RECORDING AND REPLAYS
+Use Ctrl+R, L2/LT + R3/RS, or the header Record button to start/stop.
+Native PlayStation Remote/Cloud recording captures the decoded source,
+independent of window size. Browser Xbox/Netflix/Plex recording is unavailable.
+Settings > Recording selects output folder and 30/60 FPS. Start at 30 FPS
+for lower encoder load. Wait for Saved before closing GWEN™.
+The Recording section provides saved clips, playback and editing controls.
+Edits export a new file; keep the original until the export is checked.
+Record only content you are entitled to record.
+
+REPORT A PROBLEM
+While the problem is happening, open Settings > Diagnostics > Save support
+report. Save BEFORE disconnecting if possible. Open report folder locates
+the ZIP. Send that ZIP with the version, selected preset and network type.
+Check the report before sharing; never send passwords or sign-in tokens.
+Connection errors include guidance/Technical details and Retry when available.
+
+UPDATES
+Settings > App updates or Updates opens the public updater.
+Check online now checks the official GitHub feed. Automatic daily checks
+can be enabled/disabled. Choose Download update, confirm preparation, then
+Restart to apply after playback/recording has stopped.
+Downloads are verified for channel, signature and integrity. Developer
+packages are rejected by the Public installation. There is no unattended
+installation. Online delivery works once the official release/feed is published.
+Install update file accepts a trusted public .gwen-update.zip downloaded
+manually. Roll back is available after a previous public version is retained.
+Accounts, settings and progress stay in this installation's UserData.
+
+CREDITS, SOURCE AND UNINSTALL
+Updates > Credits & acknowledgements lists project and component credits.
+Read CREDITS.txt and LICENSE.txt. Required source/license materials are
+provided with the release; upstream component licenses remain in effect.
+Uninstall through Windows Settings > Apps > GWEN™. UserData, reports,
+backups and recordings are retained. Back them up before deleting them.
+Windows-bound account credentials cannot simply be moved to another user/PC.
+This Windows download is separate from iPhone/iPad Xcode projects.
+The Windows executable is not Authenticode-signed. Device/provider/network
+compatibility varies; this guide does not certify every hardware combination.
+
+REQUIRED UPDATE POLICY (1.19.28 and later)
+GWEN Public checks the official signed release notice at startup when online.
+A verified mandatory minimum version prevents new playback until the required
+update is installed and GWEN restarted. An ongoing game or recording is not
+terminated. You approve download/preparation; GWEN does not run an installer
+without your action. A previously verified requirement is remembered offline.
+An offline client with no verified requirement continues to work. Required
+checks are separate from optional daily notifications. Older Public clients
+(1.19.23 and earlier) do not implement enforcement and must accept this update
+once. The installer preserves existing saved data and update-channel separation.
