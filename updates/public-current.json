@@ -1,0 +1,11 @@
+{
+  "product": "GWEN-PUBLIC",
+  "version": "1.19.28",
+  "mandatory": true,
+  "minimum_supported_version": "1.19.28",
+  "page_url": "https://github.com/1010b3rika/GWEN/releases/tag/v1.19.28",
+  "download_url": "https://github.com/1010b3rika/GWEN/releases/download/v1.19.28/GWEN-Public-1.19.28.gwen-update.zip",
+  "size": 272104593,
+  "sha256": "59796ff4d8252cbef830e47c45c34a320765e08f99e9cc446841f1992c0143c5",
+  "signature": "VQJuc/NLUuKfuUcn2upmn1I21IaIbiDhq1ujBnlYII7WQjWGmkpz/4GPRi8Vq6fmZvkYGHCKbgFNYNJUpdAgn3KqJxrVnXn6niaTk/Gtr1wKR5iByvJtrbTiKjfheMGxuOqM/vG8Kz9/4GFyDWsLCLMPD0L/J3D1f+Ntpt/NZp9NdRYhavBbZCP9iWY8BNUMRQ99hVrDvf3h8+RjTzy3/F+Tk1D0gRaqj6koXn1m1I9QeOcLMegFu1cFkn5dUi3Akl1euO8UvXqkUOqgG6hOqmsiU1stG2lXCf7PLqf0LMDpLEFuUSBF4HNhiQ1+5sfYfbaBiK2crirYFgoVfZcD9mo3MZ0HqrFUdfdhRZNSoC53oKK8+JV7e2QYn9HE0jc3TPZ6v3EEZ7HYZxi+hINAF+wB6jkS3zB1hrBORACnqr0YoKH7dZwKdFZU4shvtyLcXhqkEDbT7slmx7JcgU6O22FJAGKKJ3vMkORK/+r2kUh5+QFQva8nrLK8+TEirbIN"
+}

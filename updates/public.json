@@ -1,9 +1,11 @@
 {
   "product": "GWEN-PUBLIC",
-  "version": "1.19.23",
-  "page_url": "https://github.com/Tenten1824/GWEN/releases/tag/v1.19.23",
-  "download_url": "https://github.com/Tenten1824/GWEN/releases/download/v1.19.23/GWEN-Public-1.19.23.gwen-update.zip",
-  "size": 260019116,
-  "sha256": "4fd035f9b998a96be83fce13ea1373d6059fed63f2c70c0327ebd2df45b4c648",
-  "signature": "XjKJQLoCPYTyB86gd1zLFjdn5bUJ0ZQoXXzOHBPxADz2Q1i5zaohUJU4BappqZtzHcntLrapS13lMg7fH8GWmykWGC4yuc8c5y0WKrxIR8L+NBrd24lAAo3DFxz4y/KywaUvZfvvqk2KXpQhTJTxdRnvue1kuIX9P6q0i5OKnlyDcwGobxc76KWAGyr16zqRME8LgbvO7oiw8AJCK4uigv4SY3U9yd9sJ5g4RkPXg+OgQ5OKcya/2SKmfuyH4joiaQSJF7iOyqqa2a2KF1GkNssM5+ZFWyiI5YuX61t7zVQOMfXvK+VYuquYih1biem4OM0kQypd1ACJIkFZqYKyt5+AHBTZUqg8BUbmhMlrJE82Hsi7+iQ4/XWGbsAq+MAzHYmbe/AT76EVgENFnFETHzhzum8kmcq434UuMXT/NMwZiyl0eJKbERcwUA38SBe+V+/HA97fxFLQiEMefEAEPaPZmtJhMk727X1xDajCxhyGdopUQZyUaQeZKHb6mEGS"
+  "version": "1.19.28",
+  "mandatory": true,
+  "minimum_supported_version": "1.19.28",
+  "page_url": "https://github.com/Tenten1824/GWEN/releases/tag/v1.19.28",
+  "download_url": "https://github.com/Tenten1824/GWEN/releases/download/v1.19.28/GWEN-Public-1.19.28.gwen-update.zip",
+  "size": 272104593,
+  "sha256": "59796ff4d8252cbef830e47c45c34a320765e08f99e9cc446841f1992c0143c5",
+  "signature": "SMUJLVN3fMQPi0+yhbBakwRGdB2YvkGcmhVE08ve2Ib75a2fVkncGAxEzMihSiGBM058rhvfS4gXjt+hCWlBYBeh2GlON4Xh9jQNazP5HRHBPogiHoWVZ0n9rMoWECxnDLB4C1nvC4Gqk0kZ3ytDGc552YN1a1LngIc3voaw9eY9oVUQUjJFO543KpRC31kNkeFYyVh7cP+pcOTbGMllhNjyB3FSE36TIw1LrXcuikx1p62Js5L1mCCx+resB6Rg+wpfpRrbHgs860qWJCUgF6pBGLUnUiYmgMiQSEYWJ6tlpwFrWPWEF3Y/BL0HrQOtPEFgOir/hgaf5SaJfdMZ5pS1V6qbHRRmUGqjp7C10oWNw7fQZMQ6/6Tg73pQoQppsKHkTSfinF6Tc0v7n/tSi9H9SBbbwDGdxfChn0+EbcQ4Cr7rN1HhUlzMlVqJ1mob5A+BodOhOEvnJRE19hmLRNuUwRXhfCFKeSEIeht3utw9xP9eSbuKS+06h8xJVwDf"
 }
